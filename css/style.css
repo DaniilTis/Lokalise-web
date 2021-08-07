@@ -1,0 +1,91 @@
+@import url(stylesheet.css);
+
+body {
+	font-family: Graphik LC TT, sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	/* background-position:; */
+	display: inline-block;
+	height: 28px;
+	width: 130px;
+	margin: 34px 51px 33px 51px;
+}
+
+.header-nav {
+	position: relative;
+}
+
+.nav-list {
+	position: absolute;
+	display: inline-block;
+	margin: 39px 0px 24px 0px;
+	text-align: center;
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 57px;
+}
+
+.nav-item:last-child {
+	margin-right: 43px;
+}
+
+.nav-item-link {
+	color: rgba(0, 0, 0, 1);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.nav-button {
+	right: 0%;
+	top: 22px;
+	display: inline-block;
+	position: absolute;
+	/* margin: 25px 51px 24px 700px; */
+}
+
+.button {
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 0px;
+	text-decoration: none;
+	padding: 1px 36px;
+	font-family: Graphik LC TT;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.button-white {
+	margin-right: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 1);
+	background-color: white;
+}
+
+.button-orange {
+	background-color: #ff6336;
+	color: #ffffff;
+}
+
+.header {
+	border-bottom: 1px solid rgba(204, 204, 204, 1);
+	margin-bottom: 129px;
+}
+
